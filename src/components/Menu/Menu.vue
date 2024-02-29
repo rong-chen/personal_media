@@ -67,14 +67,14 @@ const unLockMenu =()=>{
 
 <style scoped>
 .menu-container {
-  position: fixed;
-  left: 0;
-  top: 0;
+  //position: fixed;
+  //left: 0;
+  //top: 0;
   width: auto;
   height: 100%;
   cursor:default;
   box-sizing: border-box;
-  box-shadow: 1px 0px 5px rgba(104, 113, 214, 0.5); /* 添加阴影效果 */
+  box-shadow: 1px 0px 5px rgba(104, 113, 214, 0.7); /* 添加阴影效果 */
 }
 
 .menu-ul >li{
