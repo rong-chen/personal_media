@@ -1,0 +1,37 @@
+{
+  "id": "4448949",
+  "name": "personal_media",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10331152",
+      "name": "chat",
+      "font_class": "chat1",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "11132291",
+      "name": "friends",
+      "font_class": "friends",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "2291760",
+      "name": "goback",
+      "font_class": "back",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "3985431",
+      "name": "setting",
+      "font_class": "setting",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    }
+  ]
+}

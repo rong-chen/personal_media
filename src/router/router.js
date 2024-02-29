@@ -6,9 +6,11 @@ const routes = [
     },
     {
         path: '/layout',
+        component:()=>import("@/view/layout/layout.vue"),
         children:[
             {path:"",redirect:"/layout/index"},
-            {path:"index",name:"layout",component:()=>import("@/view/layout/layout.vue")}
+            {path:"index",name:"layout",label:"聊天",icon:"icon-chat1",component:()=>import("@/view/home/home.vue")},
+            {path:"friend",name:"friend",label:"好友",icon:"icon-friends",component:()=>import("@/view/friends/friend.vue")}
           ]
     },{
         path: '/login',
