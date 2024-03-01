@@ -8,8 +8,7 @@
       <div class="userManager">
         <div class="userManagerBtn iconfont icon-userplus-fill"><div style="margin-left: 3px">好友管理器</div></div>
       </div>
-
-      <el-scrollbar  style="background-color: white">
+      <el-scrollbar style="background-color: white">
           <ul class="friendsListUL">
             <li v-for="item in tableData">
               {{ item.username }}

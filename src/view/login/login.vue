@@ -75,7 +75,7 @@ const getUserInfo = async ()=>{
   padding: 20px 30px;
   background-image: url(@/assets/loginBackground.jpg);
   background-repeat: no-repeat;
-  background-size: 100%,100%;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
